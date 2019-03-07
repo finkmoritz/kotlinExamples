@@ -1,0 +1,1 @@
+typealias MyHashMapSet = Set<HashMap<Int,String>>
