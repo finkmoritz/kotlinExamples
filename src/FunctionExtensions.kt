@@ -3,9 +3,7 @@ fun main(args: Array<String>) {
     example.newFunction()
 }
 
-class Example {
-
-}
+class Example {}
 
 fun Example.newFunction() {
     println("New Function")

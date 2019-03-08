@@ -1,25 +1,23 @@
 fun main(args: Array<String>) {
-    val a: Int = 10000
-    val d: Double = 100.00
-    val f: Float = 100.00f
+    val a = 10000 // Implicit type = Int
+    val d = 100.00 // Implicit type = Double
+    val f = 100.00f // Implicit type = Float
     val l: Long = 1000000004
     val s: Short = 10
     val b: Byte = 1
 
-    println("Your Int Value is "+a)
-    println("Your Double  Value is "+d)
-    println("Your Float Value is "+f)
-    println("Your Long Value is "+l)
-    println("Your Short Value is "+s)
-    println("Your Byte Value is "+b)
-
-    val c: Char
-    c = 'A'
-    println("Your Char Value is $c")
-
+    val c = 'A' // Implicit type = Char
     val boo = true
-    println("Your Boolean Value is $boo")
-
     val str = "My String"
-    println("Your String Value is $str")
+
+    println("Int Value is "+a)
+    println("Double  Value is "+d)
+    println("Float Value is "+f)
+    println("Long Value is "+l)
+    println("Short Value is "+s)
+    println("Byte Value is "+b)
+
+    println("Char Value is $c")
+    println("Boolean Value is $boo")
+    println("String Value is $str")
 }

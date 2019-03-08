@@ -7,10 +7,12 @@ fun main(args: Array<String>) {
 }
 
 class Star {
+    // companion object is the same for each instance of Star
     companion object {
         var numberOfStars = 0
     }
     constructor() {
+        // Increment count whenever a Star instance is created:
         numberOfStars++
     }
     fun numberOfStars() = numberOfStars

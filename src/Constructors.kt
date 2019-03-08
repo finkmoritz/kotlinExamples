@@ -6,7 +6,6 @@ fun main(args: Array<String>) {
     println("My primary car is a ${secondaryCar.color} ${secondaryCar.brand}")
 }
 
-
 class Car(val brand: String) {
     var color = "red"
     constructor(brand: String, color: String):this(brand) {
