@@ -4,6 +4,6 @@ fun main(args: Array<String>) {
 
     val i = 3
     if (i in 1..5) {
-        println("i is in range")
+        println("$i is in range")
     }
 }

@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     println("My primary car is a ${primaryCar.color} ${primaryCar.brand}")
 
     val secondaryCar = Car("BMW", "blue")
-    println("My primary car is a ${secondaryCar.color} ${secondaryCar.brand}")
+    println("My secondary car is a ${secondaryCar.color} ${secondaryCar.brand}")
 }
 
 class Car(val brand: String) {
