@@ -1,12 +1,14 @@
 # Kotlin Examples
 
 This repository provides a collection of simple Kotlin code examples.
-
 It can be used to accompany courses and tutorials.
+
+Exercises can be found as TODO's within the test cases (in src/test/kotlin).
 
 ## Setup
 
 Import this project into IntelliJ.
+Run functions and test cases by clicking the green symbol next to the respective function signatures.
 
 ## Packages
 
