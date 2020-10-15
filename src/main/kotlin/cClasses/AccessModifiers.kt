@@ -1,3 +1,5 @@
+package cClasses
+
 fun main(args: Array<String>) {
     val superClass = SuperClass()
     superClass.publicVar
@@ -17,5 +19,5 @@ class ChildClass : SuperClass() {
     var x = publicVar
     var y = protectedVar
     var z = internalVar
-    //var p = privateVar // not allowed, because not called inside SuperClass
+    //var p = privateVar // not allowed, because not called inside classes.SuperClass
 }

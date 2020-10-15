@@ -1,3 +1,5 @@
+package cClasses
+
 fun main(args: Array<String>) {
     val star1 = Star()
     println("numberOfStars=${star1.numberOfStars()}")
@@ -7,12 +9,12 @@ fun main(args: Array<String>) {
 }
 
 class Star {
-    // companion object is the same for each instance of Star
+    // companion object is the same for each instance of classes.Star
     companion object {
         var numberOfStars = 0
     }
     constructor() {
-        // Increment count whenever a Star instance is created:
+        // Increment count whenever a classes.Star instance is created:
         numberOfStars++
     }
     fun numberOfStars() = numberOfStars

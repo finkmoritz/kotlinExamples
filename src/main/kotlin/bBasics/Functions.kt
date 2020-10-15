@@ -1,3 +1,5 @@
+package bBasics
+
 fun main(args: Array<String>) {
     val x = 3
     val xSquared = squared(x)

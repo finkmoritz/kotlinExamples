@@ -1,3 +1,5 @@
+package eLambdas
+
 fun main(args: Array<String>) {
     val addLambda : (Int,Int)->Int = {x:Int,y:Int -> x+y}
     val printIntLambda : (Int)->Unit = {x:Int -> println("Integer = $x")}

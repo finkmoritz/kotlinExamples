@@ -1,3 +1,5 @@
+package fGenerics
+
 fun main(args: Array<String>) {
 
 }

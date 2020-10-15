@@ -1,3 +1,5 @@
+package gMisc
+
 fun main(args: Array<String>) {
     outerLabel@ for(i in 1..3) {
         innerLabel@ for(j in 1..3) {

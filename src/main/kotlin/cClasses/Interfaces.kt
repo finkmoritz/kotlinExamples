@@ -1,3 +1,5 @@
+package cClasses
+
 fun main(args: Array<String>) {
     val ab = AB()
     ab.funA()
@@ -15,7 +17,7 @@ interface B {
     fun funB()
 }
 
-class AB : A,B {
+class AB : A, B {
     override val a = 1
     override val b = 2
     override fun funB() = println("funB")

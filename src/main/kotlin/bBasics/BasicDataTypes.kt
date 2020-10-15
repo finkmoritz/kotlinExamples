@@ -1,3 +1,5 @@
+package bBasics
+
 fun main(args: Array<String>) {
     val a = 10000 // Implicit type = Int
     val d = 100.00 // Implicit type = Double
@@ -6,7 +8,7 @@ fun main(args: Array<String>) {
     val s: Short = 10
     val b: Byte = 1
 
-    val c = 'A' // Implicit type = Char
+    val c = 'classes.A' // Implicit type = Char
     val boo = true
     val str = "My String"
 

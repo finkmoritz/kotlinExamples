@@ -1,3 +1,5 @@
+package cClasses
+
 fun main(args: Array<String>) {
     val myClass = MyClass()
     myClass.print()
