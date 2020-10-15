@@ -1,6 +1,6 @@
 package dClassesAdvanced
 
-fun main(args: Array<String>) {
+fun main() {
     val nestedClass = CustomClass.NestedClass()
     val hello = nestedClass.hello()
     println(hello)

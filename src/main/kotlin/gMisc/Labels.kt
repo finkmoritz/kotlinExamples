@@ -1,6 +1,6 @@
 package gMisc
 
-fun main(args: Array<String>) {
+fun main() {
     outerLabel@ for(i in 1..3) {
         innerLabel@ for(j in 1..3) {
             println("(i,j)=($i,$j)")

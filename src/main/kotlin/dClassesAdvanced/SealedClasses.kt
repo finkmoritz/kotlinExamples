@@ -1,6 +1,6 @@
 package dClassesAdvanced
 
-fun main(args: Array<String>) {
+fun main() {
     val cat = Animal.Cat("Kitty")
     val dog = Animal.Dog("Bello")
 

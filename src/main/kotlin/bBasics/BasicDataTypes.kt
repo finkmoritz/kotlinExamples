@@ -1,6 +1,6 @@
 package bBasics
 
-fun main(args: Array<String>) {
+fun main() {
     val a = 10000 // Implicit type = Int
     val d = 100.00 // Implicit type = Double
     val f = 100.00f // Implicit type = Float

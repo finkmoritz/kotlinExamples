@@ -1,6 +1,6 @@
 package bBasics
 
-fun main(args: Array<String>) {
+fun main() {
     val x = 5
     val y = 3
 

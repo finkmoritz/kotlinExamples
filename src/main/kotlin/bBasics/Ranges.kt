@@ -1,6 +1,6 @@
 package bBasics
 
-fun main(args: Array<String>) {
+fun main() {
     for (j in 1..4)
         println("j=$j")
 

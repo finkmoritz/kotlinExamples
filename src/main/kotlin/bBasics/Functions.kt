@@ -1,6 +1,6 @@
 package bBasics
 
-fun main(args: Array<String>) {
+fun main() {
     val x = 3
     val xSquared = squared(x)
     val xCubed = cubed(x)

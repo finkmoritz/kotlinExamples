@@ -1,6 +1,6 @@
 package dClassesAdvanced
 
-fun main(args: Array<String>) {
+fun main() {
     val pet = Pet("Dave","bird")
 
     println("Name=${pet.name}, Type=${pet.type}")

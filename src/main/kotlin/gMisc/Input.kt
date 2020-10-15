@@ -1,6 +1,6 @@
 package gMisc
 
-fun main(args: Array<String>) {
+fun main() {
     print("Enter your text: ")
     val inputString = readLine()
     println("You entered: $inputString")

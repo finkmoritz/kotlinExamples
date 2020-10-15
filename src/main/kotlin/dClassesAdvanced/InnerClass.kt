@@ -1,6 +1,6 @@
 package dClassesAdvanced
 
-fun main(args: Array<String>) {
+fun main() {
     val hello = OuterClass().InnerClass().hello()
     println(hello)
 }

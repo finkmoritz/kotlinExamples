@@ -1,6 +1,6 @@
 package cClasses
 
-fun main(args: Array<String>) {
+fun main() {
     Mother().speak()
     Child().speak()
 }

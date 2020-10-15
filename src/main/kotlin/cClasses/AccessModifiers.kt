@@ -1,6 +1,6 @@
 package cClasses
 
-fun main(args: Array<String>) {
+fun main() {
     val superClass = SuperClass()
     superClass.publicVar
     //superClass.protectedVar // not allowed, because not called in a sub-class

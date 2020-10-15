@@ -1,6 +1,6 @@
 package cClasses
 
-fun main(args: Array<String>) {
+fun main() {
     val primaryCar = Car("Ferrari")
     println("My primary car is a ${primaryCar.color} ${primaryCar.brand}")
 

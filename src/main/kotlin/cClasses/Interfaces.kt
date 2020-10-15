@@ -1,6 +1,6 @@
 package cClasses
 
-fun main(args: Array<String>) {
+fun main() {
     val ab = AB()
     ab.funA()
     ab.funB()

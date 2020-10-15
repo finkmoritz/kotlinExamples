@@ -1,6 +1,6 @@
 package dClassesAdvanced
 
-fun main(args: Array<String>) {
+fun main() {
     val pair = IntStringPair(1, "One")
     val (myInteger, myString) = pair
     println("myInteger=$myInteger, myString=$myString")

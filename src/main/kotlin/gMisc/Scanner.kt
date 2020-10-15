@@ -2,7 +2,7 @@ package gMisc
 
 import java.util.Scanner
 
-fun main(args: Array<String>) {
+fun main() {
     val myScanner = Scanner(System.`in`)
     print("Enter your integer: ")
     val x = myScanner.nextInt()

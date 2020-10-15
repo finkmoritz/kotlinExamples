@@ -1,6 +1,6 @@
 package cClasses
 
-fun main(args: Array<String>) {
+fun main() {
     val star1 = Star()
     println("numberOfStars=${star1.numberOfStars()}")
     val star2 = Star()
